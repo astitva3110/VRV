@@ -5,6 +5,7 @@ require('dotenv').config();
 
 
 const PORT=process.env.PORT;
+//path
 const authRoute=require('./routes/auth')
 const connectdb=require('./util/database');
 connectdb();
